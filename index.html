@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alexander Li</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" style="text/css" href="css/main.css">
+</head>
+<body>
+  <!-- Main Wrapper -->
+  <div class="mainwrapper">
+    <!-- Navigation Menu -->
+    <div id="mymenu" class="container">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a id="logo" class="navbar-brand">Alexander Lii</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html" target="_blank">Home</a></li>
+              <li><a href="#experiences">Experience</a></li>
+              <li><a href="#skillsandinterest">Interests</a></li>
+              <li><a href="#hobbies">Hobbies</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="documents/Alexander_Li_Resume.pdf" target="_blank">Download Resume</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Carousel -->
+    <div>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="images/fiu.jpg" alt="FIU">
+            <div class="carousel-caption">
+              <div class="carouseltitle">
+                <h3>Florida International University</h3>
+                <p>Hi I am a senior majoring in computer science at Florida International University</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="images/peru.jpg" alt="Peru">
+            <div class="carousel-caption">
+              <div class="carouseltitle">
+                <h3>Peru</h3>
+                <p>I was born in Lima,Peru and came to the United States at the age of 8.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="images/morikami.jpg" alt="morikami">
+            <div class="carousel-caption">
+              <div class="carouseltitle">
+                <h3>Morikami Japanese Gardens</h3>
+                <p>I love being outdoors and enjoy exploring new cultures</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Content -->
+  <div id="maincontent" class="container">
+    <div id="experiences" class="container">
+      <h2 id="experiencestext">Experience</h2><br>
+    </div>
+    <div class="row">
+      <div class="col-md-5 contenttext">
+        <h1>FIU GIS Center</h1>
+        <p>
+          Currently working on customizing the interface for Geoportal, a JAVA
+          web application. Also currently working on improving Geoportal search
+          efficiency by filtering records from the SQL database according to collection
+          name. Created a Python script that runs on the server periodically to monitor
+          and log downtime of all production sites for the department.
+        </p>
+      </div>
+      <div class="col-md-7">
+        <img id="gis" src="images/gis.jpg" alt="GIS">
+      </div>
+    </div>
+    <div id="skillsandinterest" class="container">
+      <h2 id="skillsandinteresttext">Skills / Interests</h2><br>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <img id="webdev" src="images/webdev.jpg" alt="Web Development">
+      </div>
+      <div class="col-md-7 contenttext">
+        <h1>Career Interests</h1>
+        <p>I am majoring in computer science and aspiring to become a professional web developer.
+          This summer I have been interning at the Geographic Information Systems(GIS) Center and
+          have taken an interest into developing websites. I gained knowledge about both front
+          and back end development.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5 contenttext">
+        <h1>Technical Skills</h1>
+        <p>I am most comfortable with php and sql. I have also worked with <strong>html,
+          css, javascript, jquery, python, java,</strong> and <strong>C</strong>. I enjoy creating websites
+          and wish to learn more in order to improve my development skills.
+        </p>
+      </div>
+      <div class="col-md-7">
+        <img id="planguages" src="images/programming.jpg" alt="Programming Languages">
+      </div>
+    </div>
+    <div id="hobbies" class="container">
+      <h2 id="hobbiestext">Hobbies</h2><br>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <img id="fishing" src="images/fish.jpg" alt="Fishing">
+      </div>
+      <div class="col-md-7 contenttext">
+        <h1>Fishing</h1>
+        <p>Great activity to hang out with friends and family. It is a relaxing activity
+          that helps with relieving pressure. The timeframe of tranquility while waiting
+          for a fish to bite is the best feeling ever. It is also enjoyable to have great
+          company that you can share stories with.
+        </p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div id="contact">
+          <h1 id="contact">Contact Me</h1>
+          <div class="container">
+            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+            alexanderli082@gmail.com
+          </div>
+          <div class="container">
+            <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+            305-799-4051
+          </div>
+        </div>
+      </div>
+      <p class="pull-right"><a href="#">Top of page</a></p>
+      <p>&#169; 2016 Alexander Li</p>
+    </div>
+  </footer>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
